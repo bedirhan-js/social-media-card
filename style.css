@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+  /* margin: 36rem 0px 0rem 43rem; */
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("cloud.jpg");
+  background-size: cover;
+  background-position: center center;
+  backdrop-filter: blur(18px);
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+}
+
+.background {
+  width: 1440px;
+  height: 480px;
+}
+
+.link-bottom {
+  width: 1440px;
+  height: 145px;
+  background-color: #f3f4ee;
+  border-radius: 16px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  margin-top: -9rem;
+}
+
+.butonlar {
+  display: flex;
+  max-width: 52rem;
+  flex-wrap: wrap;
+  gap: 23px;
+  justify-content: right;
+  margin-top: -6rem;
+  margin-left: 36rem;
+  padding-top: 6px;
+}
+
+.link-bottom .buton {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.link-bottom .buton a {
+  color: black;
+  text-decoration: none;
+  padding: 0px 17px;
+  border: 1px solid #ccc;
+  border-radius: 53px;
+  font-size: 27px;
+  transition: all 0.2s;
+  box-shadow: rgba(56, 108, 214, 0.4) 5px 5px;
+}
+
+.link-bottom .buton a:hover {
+  transform: scale(1.1);
+}
+
+.link-bottom h1 {
+  font-size: 3rem;
+  display: inline-block;
+  margin-top: 33px;
+  margin-left: 42px;
+}
+
+.glass {
+  font-family: "Oswald", sans-serif;
+  width: 1440px;
+  height: 720px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* Resim için stillemeler */
+.link-top {
+  background-image: url("cloud.jpg");
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-size: cover;
+  background-position: top;
+}
+
+.link-top img {
+  max-width: 100%;
+  max-height: 100%;
+}
